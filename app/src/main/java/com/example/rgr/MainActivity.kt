@@ -19,7 +19,6 @@ var att2 = 30
 var dopusk = 50
 
 
-
 class MainActivity : AppCompatActivity() {
 
     companion object {
@@ -111,8 +110,6 @@ class MainActivity : AppCompatActivity() {
             if(isAlready == 0) groups += Group(text, emptyArray<Student>())
         }
     }
-
-
 
     private fun changeText(){
         val textView: TextView = findViewById<TextView>(R.id.textView)
